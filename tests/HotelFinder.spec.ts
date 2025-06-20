@@ -112,6 +112,6 @@ async function openFirstHotelAndViewDeals(page: Page) {
   for (let i = 1; i < dealCount; i++) {
     const dealName = await deals.nth(i).textContent();
     const dealPrice = await prices.nth(i).textContent();
-    console.log(`Price for ${hotelName} on ${dealName} per night is ${dealPrice}`);
+    console.log(`On ${dealName} the cost for ${hotelName} is ${dealPrice} per night!`);
   }
 }
