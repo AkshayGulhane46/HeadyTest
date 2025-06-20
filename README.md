@@ -29,7 +29,7 @@ This tool helps you **automate hotel search** and fetch the **lowest prices** fo
 | ⚙️Tool        | 🤔Purpose                     |
 |-------------|------------------------------|
 |  Playwright | Browser automation engine    |
-|  TypeScript | Static typing and dev support |
+|  TypeScript | Be Type Safe |
 |  HTML Report | Beautiful test result output |
 
 ---
