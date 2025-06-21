@@ -1,6 +1,6 @@
 import { expect, test, Page } from '@playwright/test';
 import fs from 'fs';
-test.setTimeout(120000); // Set timeout to 2 minutes
+test.setTimeout(120000); // set timeout to override the default playeright timer of 30 seconds
 
 // Added Explicit waits to see how this program selects values 
 // All Locators
